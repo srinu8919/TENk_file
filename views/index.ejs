@@ -1,0 +1,16 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>TENK DETAILS</h1>
+        <form>
+        <% for(var i=0;i<file.Sheet1.length;i++){ %>
+       <a href="/update/<%= i%>"> <%= file.Sheet1[i]['Serial Number']%></a>
+       <br>
+        <% } %>
+    </form>
+        
+
+    </body>
+</html>
